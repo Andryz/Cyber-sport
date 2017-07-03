@@ -111,4 +111,20 @@ h3{
 }
 // MATCH
 
+.match{
+	width:1200px;
+	height: 175px;
+	background: red;
+	&__first{
+		background: rgba(145, 69, 186, 0.68);
+	}
+	&__detail{
+		
+	}
+	&__view{
+		
+	}
+}
+
+
 // MATCH FINISH
