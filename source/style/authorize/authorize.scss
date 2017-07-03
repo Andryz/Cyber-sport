@@ -38,8 +38,8 @@ nav{
 }
 .slider{
 	position: relative;
-	margin: 150px 0 0 0;
 	width:100%;
+	top:28%;
 	&__main{
 		text-align: center;
 	}
@@ -53,6 +53,38 @@ nav{
 		background:#692b7c;
 		font-family: Arial;
 		color: #fff;
+		&_plus{
+			color:#ad0d31;
+		}
+		&:hover &_plus {
+			transition: 0.5s;
+			transform: rotate(360deg);
+		}
+	}
+	&__arrow{
+		
+		&__right{
+			display: block;
+			margin-left: 16%;
+			float: left;
+			opacity: 0.3;
+			&:hover{
+				cursor:pointer;
+				opacity: 1;
+				transition: 0.6s;
+			}
+		}
+		&__left{
+			display: block;
+			margin-right: 16%;
+			float: right;
+			opacity: 0.3;
+			&:hover{
+				cursor:pointer;
+				opacity: 1;
+				transition: 0.6s;
+			}
+		}
 	}
 }
 h1{
@@ -73,3 +105,10 @@ h3{
 	font-style:italic;
 	color:#fff;
 }
+.fa-angle-left, .fa-angle-right{
+	font-size: 50px !important;
+	color: #fff;
+}
+// MATCH
+
+// MATCH FINISH
