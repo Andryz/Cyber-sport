@@ -110,21 +110,71 @@ h3{
 	color: #fff;
 }
 // MATCH
-
+.upcoming{
+	position: relative;
+}
 .match{
+	position: absolute;
+	right: 50%;
 	width:1200px;
 	height: 175px;
-	background: red;
+	margin-right:-600px;
 	&__first{
+		width: 115px;
+		height: 175px;
+		float: left;
 		background: rgba(145, 69, 186, 0.68);
+		color: #fff;
+		font-size: 30px;
+		text-align: center;
+		&_shield{
+			padding: 64px 0;
+			font-size: 40px;	
+
+		}
 	}
 	&__detail{
-		
+		width: 685px;
+		height: 175px;
+		float: left;
+		padding: 0 80px;
+		background: #000;
 	}
 	&__view{
-		
+		width: 240px;
+		height: 175px;
+		float: left;
+		background: rgba(#830D37, 0.5);
+		&__arrow{
+			display: block;
+			padding: 77px 0;
+			text-align: center;
+			color: #fff;
+			font-size: 18px;
+			font-family: Arial;
+
+		}
+	}
+	&__about{
+		float:left;
+		&__name{
+			font-family: 'Oswald', sans-serif;
+			font-weight: 700;
+			font-size: 25px;
+			color: #AD0D31;
+		}
+		&__time{
+			font-family: 'Oswald', sans-serif;
+			font-size: 16px;
+			color: #8640AB;
+		}
+	}
+	&__teams{
+		float:left;
 	}
 }
 
-
+// .fa-shield{
+// 	font-size: 40px !important;
+// }
 // MATCH FINISH

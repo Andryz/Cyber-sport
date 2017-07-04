@@ -40,12 +40,26 @@ header
 .upcoming
 	.match
 		.match__first
-
+			.match__first_shield
+				.i(class='fa fa-shield' aria-hidden='true')
 		.match__detail
+			.match__about
+				h4.match__about__name UPCOMING MATCH
+				.match__about__time NOVEMBER 30, 2016 9:00PM
+
+			.match__teams
+				.match__team-first
+					img.team-img(src='/assets/img/images_png/f-team.png', alt='Team #1')
+				.match__team-vs VS
+				.match__team-second
+					img.team-img(src='/assets/img/images_png/s-team.png', alt='Team #2')
+
+
+
 
 		.match__view 
-		|VIEW MATCH
-		|
+			a.match__view__arrow VIEW MATCH
+				.i(class='fa fa-long-arrow-right' aria-hidden='true')
 
 
 //- MATCH FINISH
