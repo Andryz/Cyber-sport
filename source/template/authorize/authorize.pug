@@ -27,7 +27,7 @@ header
 			h3 A THEME JUST FOR ESPORT/GAMES
 			h1 SUPER THEME
 			h2 I THINK YOU ARE HYPED AS WE ARE!
-		.slider__btn
+		a.slider__btn
 			| BUY NOW 
 			.i(class='fa fa-plus slider__btn_plus' aria-hidden='true')
 		.slider__arrow
@@ -38,7 +38,7 @@ header
 	//- SLIDER FINISH
 //- MATCH
 .upcoming
-	.match
+	.match.clearfix
 		.match__first
 			.match__first_shield
 				.i(class='fa fa-shield' aria-hidden='true')
@@ -48,18 +48,110 @@ header
 				.match__about__time NOVEMBER 30, 2016 9:00PM
 
 			.match__teams
-				.match__team-first
-					img.team-img(src='/assets/img/images_png/f-team.png', alt='Team #1')
-				.match__team-vs VS
-				.match__team-second
-					img.team-img(src='/assets/img/images_png/s-team.png', alt='Team #2')
-
-
-
-
+				.match__teams__first
+					img.match__teams__first_img(src='/assets/img/images_png/f-team.png', alt='Team #1')
+				.match__teams__vs VS
+				.match__teams__second
+					img.match__teams__second_img(src='/assets/img/images_png/s-team.png', alt='Team #2')
 		.match__view 
-			a.match__view__arrow VIEW MATCH
+			a.match__view__arrow.animated.shake VIEW MATCH
 				.i(class='fa fa-long-arrow-right' aria-hidden='true')
+	article.article-new
+		.article-new__text
+			.article-new__text__categorize-wrrap.clearfix
+				a.article-new__text__categorize UNCATEGORIZED
+				a.article-new__text__comments 5
+			.article-new__text__date November 15, 2016	
+			a.article-new__text__title Hello world post is...
+				.article-new__text__border
+			p.article-new__text__content 
+			|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			|tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			|quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			|consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			|cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			|proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			.article-new__text__read 
+				a.article-new__text__read-more READ MORE
+				.article-new__text__link
+					a.article-new__text__link__social
+						.i(class='fa fa-facebook' aria-hidden='true')
+					a.article-new__text__link__social
+						.i(class='fa fa-twitter' aria-hidden='true')
+
+		.article-new__img
+	article.article-list
+		.article-list__box-info
+			.article-list__box-info__conteiner
+				.article-new__text__categorize-wrrap.clearfix.animated.fadeInLeft
+					a.article-new__text__categorize UNCATEGORIZED
+					a.article-new__text__comments.article-list__text__comments 0
+				.article-new__text__date.article-list__text__date.animated.fadeInLeft November 15, 2016	
+				a.article-new__text__title.article-list__text__title.animated.fadeInLeftSlow Hello world post is...
+					.article-new__text__border.article-list__text__border
+				p.article-new__text__content.article-list__text__content.animated.fadeInLeftMiddle
+					|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					|tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+				.article-new__text__read.animated.fadeInLeft
+					a.article-new__text__read-more READ MORE
+					.article-new__text__link
+						a.article-new__text__link__social
+							.i(class='fa fa-facebook' aria-hidden='true')
+						a.article-new__text__link__social
+							.i(class='fa fa-twitter' aria-hidden='true')
+
+		.article-list__box-info.article-list__box-info_second
+			.article-list__box-info__conteiner
+				.article-new__text__categorize-wrrap.clearfix.animated.fadeInLeft
+					a.article-new__text__categorize UNCATEGORIZED
+					a.article-new__text__comments.article-list__text__comments 0
+				.article-new__text__date.article-list__text__date.animated.fadeInLeft November 15, 2016	
+				a.article-new__text__title.article-list__text__title.animated.fadeInLeftSlow Hello world post is...
+					.article-new__text__border.article-list__text__border
+				p.article-new__text__content.article-list__text__content.animated.fadeInLeftMiddle
+					|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					|tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+				.article-new__text__read.animated.fadeInLeft
+					a.article-new__text__read-more READ MORE
+					.article-new__text__link
+						a.article-new__text__link__social
+							.i(class='fa fa-facebook' aria-hidden='true')
+						a.article-new__text__link__social
+							.i(class='fa fa-twitter' aria-hidden='true')
+
+		.article-list__box-info.article-list__box-info_third
+			.article-list__box-info__conteiner
+				.article-new__text__categorize-wrrap.clearfix.animated.fadeInLeft
+					a.article-new__text__categorize UNCATEGORIZED
+					a.article-new__text__comments.article-list__text__comments 0
+				.article-new__text__date.article-list__text__date.animated.fadeInLeft November 15, 2016	
+				a.article-new__text__title.article-list__text__title.animated.fadeInLeftSlow Hello world post is...
+					.article-new__text__border.article-list__text__border
+				p.article-new__text__content.article-list__text__content.animated.fadeInLeftMiddle
+					|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					|tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+				.article-new__text__read.animated.fadeInLeft
+					a.article-new__text__read-more READ MORE
+					.article-new__text__link
+						a.article-new__text__link__social
+							.i(class='fa fa-facebook' aria-hidden='true')
+						a.article-new__text__link__social
+							.i(class='fa fa-twitter' aria-hidden='true')
 
 
 //- MATCH FINISH
+footer
+	.footer-nav
+		ul.footer-nav__list
+			li.footer-nav__item
+				a.footer-nav__link Intro
+				a.footer-nav__link News
+				a.footer-nav__link Teams
+				a.footer-nav__link Products
+				a.footer-nav__link Abouts
+	.footer-social
+		a.article-new__text__link__social
+			.i(class='fa fa-facebook' aria-hidden='true')
+		a.article-new__text__link__social
+			.i(class='fa fa-twitter' aria-hidden='true')
+	
