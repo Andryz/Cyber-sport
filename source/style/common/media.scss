@@ -1,8 +1,86 @@
 
 @media screen and (max-width: 1200px){
+	.match, .article-new, .article-list {
+    	width: 970px;
+	}
+	.match__detail {
+    	width: 455px;
+	}
+	.match__teams {
+		display: none;
+	}
+	.article-new__text {
+		width: 490px;
+	}
+	.article-list__box-info{
+		width: 243.2px;
+	}
+	.article-list__box-info__conteiner{
+		background: rgba(#000, 0.6);
+		display: block;
+
+	}
+
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1000px){
+	.upcoming {
+    	margin: -310px auto 0 auto;
+	}
+	.match {
+    	width: 100%;
+    	height: inherit;
+	}
+	.match__first {
+    	display: none;
+	}
+	.match__detail{
+		width: 100%;
+		height: 225px;
+		padding:0;
+	}
+	.match__about{
+		width: 100%;
+		padding: 0px 0;
+    	text-align: center;
+	}
+	.match__teams{
+		display: block;
+		width: 405px;
+    	margin: 0 auto;
+    	float: none;
+    	padding:0;
+	}
+	.match__view {
+		width: 100%;
+		height: 80px;	
+	}
+	.match__view__arrow{
+		padding: 34px 0;
+	}
+
+	.article-new{
+		width: 100%;
+	}
+	.article-new__img{
+		display: none;
+	}
+	.article-new__text {
+    	width: 100%;
+    	height: 205px;
+    	background: url(/assets/img/images_png/bg_article.jpg) left -130px center no-repeat;
+		
+	}
+	.article-new__text__content, .article-new__text__read, .article-new__text__border {
+		display: none;
+	}
+	.article-new__text__date{
+		color:#fff;
+	}
+	.article-new__text__title{
+		color:#fff;
+		// margin: -164px 0 0 0;
+	}
 }
 
 @media screen and (max-width: 768px){
